@@ -7,9 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15F89E2BD1C73967060E61DF /* Pods_Handy_Extensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817DE0BA6C297A4A235E21F1 /* Pods_Handy_Extensions.framework */; };
 		565FEBD62497A2E3000B5B41 /* Handy_Extensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 565FEBCC2497A2E2000B5B41 /* Handy_Extensions.framework */; };
 		565FEBDB2497A2E3000B5B41 /* Handy_ExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565FEBDA2497A2E3000B5B41 /* Handy_ExtensionsTests.swift */; };
 		565FEBDD2497A2E3000B5B41 /* Handy_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 565FEBCF2497A2E2000B5B41 /* Handy_Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		565FEBE72497B4AC000B5B41 /* HEView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565FEBE62497B4AC000B5B41 /* HEView.swift */; };
+		565FEBE92497B9E6000B5B41 /* HEAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565FEBE82497B9E6000B5B41 /* HEAlamofire.swift */; };
+		565FEBEB2497BA01000B5B41 /* HEConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565FEBEA2497BA01000B5B41 /* HEConstants.swift */; };
+		565FEBED2497BA69000B5B41 /* HETextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565FEBEC2497BA69000B5B41 /* HETextField.swift */; };
+		565FEBEF2497BB2F000B5B41 /* HEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565FEBEE2497BB2F000B5B41 /* HEViewController.swift */; };
+		565FEBF12497BDC9000B5B41 /* HEStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565FEBF02497BDC9000B5B41 /* HEStackView.swift */; };
+		565FEBF32497BDEA000B5B41 /* HEUtilityMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565FEBF22497BDEA000B5B41 /* HEUtilityMethods.swift */; };
+		565FEBF52497BE1D000B5B41 /* HENavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565FEBF42497BE1D000B5B41 /* HENavigationController.swift */; };
+		565FEBF72497BFB5000B5B41 /* HENetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565FEBF62497BFB5000B5B41 /* HENetworking.swift */; };
+		565FEBF92497C6FC000B5B41 /* HEAuthorizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565FEBF82497C6FC000B5B41 /* HEAuthorizationManager.swift */; };
+		565FEBFB2497C7AE000B5B41 /* HEDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565FEBFA2497C7AE000B5B41 /* HEDataManager.swift */; };
+		565FEC022497C8D3000B5B41 /* HECollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565FEC012497C8D3000B5B41 /* HECollectionViewCell.swift */; };
+		565FEC042497CB39000B5B41 /* HEScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565FEC032497CB39000B5B41 /* HEScrollView.swift */; };
+		565FEC062497CB89000B5B41 /* HEColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565FEC052497CB89000B5B41 /* HEColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +44,23 @@
 		565FEBD52497A2E3000B5B41 /* Handy ExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Handy ExtensionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		565FEBDA2497A2E3000B5B41 /* Handy_ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handy_ExtensionsTests.swift; sourceTree = "<group>"; };
 		565FEBDC2497A2E3000B5B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		565FEBE62497B4AC000B5B41 /* HEView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEView.swift; sourceTree = "<group>"; };
+		565FEBE82497B9E6000B5B41 /* HEAlamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEAlamofire.swift; sourceTree = "<group>"; };
+		565FEBEA2497BA01000B5B41 /* HEConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEConstants.swift; sourceTree = "<group>"; };
+		565FEBEC2497BA69000B5B41 /* HETextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HETextField.swift; sourceTree = "<group>"; };
+		565FEBEE2497BB2F000B5B41 /* HEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEViewController.swift; sourceTree = "<group>"; };
+		565FEBF02497BDC9000B5B41 /* HEStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEStackView.swift; sourceTree = "<group>"; };
+		565FEBF22497BDEA000B5B41 /* HEUtilityMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEUtilityMethods.swift; sourceTree = "<group>"; };
+		565FEBF42497BE1D000B5B41 /* HENavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HENavigationController.swift; sourceTree = "<group>"; };
+		565FEBF62497BFB5000B5B41 /* HENetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HENetworking.swift; sourceTree = "<group>"; };
+		565FEBF82497C6FC000B5B41 /* HEAuthorizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEAuthorizationManager.swift; sourceTree = "<group>"; };
+		565FEBFA2497C7AE000B5B41 /* HEDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEDataManager.swift; sourceTree = "<group>"; };
+		565FEC012497C8D3000B5B41 /* HECollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HECollectionViewCell.swift; sourceTree = "<group>"; };
+		565FEC032497CB39000B5B41 /* HEScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEScrollView.swift; sourceTree = "<group>"; };
+		565FEC052497CB89000B5B41 /* HEColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HEColor.swift; sourceTree = "<group>"; };
+		6D1F2BA33627CA34813A86E1 /* Pods-Handy Extensions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Handy Extensions.release.xcconfig"; path = "Target Support Files/Pods-Handy Extensions/Pods-Handy Extensions.release.xcconfig"; sourceTree = "<group>"; };
+		817DE0BA6C297A4A235E21F1 /* Pods_Handy_Extensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Handy_Extensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6013CC5786CF0C34DEEC3C /* Pods-Handy Extensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Handy Extensions.debug.xcconfig"; path = "Target Support Files/Pods-Handy Extensions/Pods-Handy Extensions.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15F89E2BD1C73967060E61DF /* Pods_Handy_Extensions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +89,8 @@
 				565FEBCE2497A2E2000B5B41 /* Handy Extensions */,
 				565FEBD92497A2E3000B5B41 /* Handy ExtensionsTests */,
 				565FEBCD2497A2E2000B5B41 /* Products */,
+				8BB2B5948AAB1CF3AF64FD92 /* Pods */,
+				93FCC0C229424E7068D41C82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +106,10 @@
 		565FEBCE2497A2E2000B5B41 /* Handy Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				565FEBFC2497C843000B5B41 /* Networking */,
+				565FEBFD2497C84F000B5B41 /* Data Management */,
+				565FEBFE2497C869000B5B41 /* Extensions */,
+				565FEBFF2497C8A3000B5B41 /* Views */,
 				565FEBCF2497A2E2000B5B41 /* Handy_Extensions.h */,
 				565FEBD02497A2E2000B5B41 /* Info.plist */,
 			);
@@ -84,6 +123,73 @@
 				565FEBDC2497A2E3000B5B41 /* Info.plist */,
 			);
 			path = "Handy ExtensionsTests";
+			sourceTree = "<group>";
+		};
+		565FEBFC2497C843000B5B41 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				565FEBF62497BFB5000B5B41 /* HENetworking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		565FEBFD2497C84F000B5B41 /* Data Management */ = {
+			isa = PBXGroup;
+			children = (
+				565FEBF82497C6FC000B5B41 /* HEAuthorizationManager.swift */,
+				565FEBFA2497C7AE000B5B41 /* HEDataManager.swift */,
+			);
+			path = "Data Management";
+			sourceTree = "<group>";
+		};
+		565FEBFE2497C869000B5B41 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				565FEBE82497B9E6000B5B41 /* HEAlamofire.swift */,
+				565FEC052497CB89000B5B41 /* HEColor.swift */,
+				565FEBEA2497BA01000B5B41 /* HEConstants.swift */,
+				565FEBF42497BE1D000B5B41 /* HENavigationController.swift */,
+				565FEC032497CB39000B5B41 /* HEScrollView.swift */,
+				565FEBF02497BDC9000B5B41 /* HEStackView.swift */,
+				565FEBEC2497BA69000B5B41 /* HETextField.swift */,
+				565FEBEE2497BB2F000B5B41 /* HEViewController.swift */,
+				565FEBE62497B4AC000B5B41 /* HEView.swift */,
+				565FEBF22497BDEA000B5B41 /* HEUtilityMethods.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		565FEBFF2497C8A3000B5B41 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				565FEC002497C8AD000B5B41 /* Collection View Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		565FEC002497C8AD000B5B41 /* Collection View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				565FEC012497C8D3000B5B41 /* HECollectionViewCell.swift */,
+			);
+			path = "Collection View Cells";
+			sourceTree = "<group>";
+		};
+		8BB2B5948AAB1CF3AF64FD92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB6013CC5786CF0C34DEEC3C /* Pods-Handy Extensions.debug.xcconfig */,
+				6D1F2BA33627CA34813A86E1 /* Pods-Handy Extensions.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		93FCC0C229424E7068D41C82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				817DE0BA6C297A4A235E21F1 /* Pods_Handy_Extensions.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 565FEBE02497A2E3000B5B41 /* Build configuration list for PBXNativeTarget "Handy Extensions" */;
 			buildPhases = (
+				B9F15C1D9D51C0E014993DA6 /* [CP] Check Pods Manifest.lock */,
 				565FEBC72497A2E2000B5B41 /* Headers */,
 				565FEBC82497A2E2000B5B41 /* Sources */,
 				565FEBC92497A2E2000B5B41 /* Frameworks */,
@@ -142,11 +249,13 @@
 		565FEBC32497A2E2000B5B41 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HE;
 				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
 				TargetAttributes = {
 					565FEBCB2497A2E2000B5B41 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 					565FEBD42497A2E3000B5B41 = {
 						CreatedOnToolsVersion = 11.5;
@@ -189,11 +298,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B9F15C1D9D51C0E014993DA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Handy Extensions-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		565FEBC82497A2E2000B5B41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				565FEBF72497BFB5000B5B41 /* HENetworking.swift in Sources */,
+				565FEC042497CB39000B5B41 /* HEScrollView.swift in Sources */,
+				565FEBF52497BE1D000B5B41 /* HENavigationController.swift in Sources */,
+				565FEBF32497BDEA000B5B41 /* HEUtilityMethods.swift in Sources */,
+				565FEC062497CB89000B5B41 /* HEColor.swift in Sources */,
+				565FEBF12497BDC9000B5B41 /* HEStackView.swift in Sources */,
+				565FEBE72497B4AC000B5B41 /* HEView.swift in Sources */,
+				565FEC022497C8D3000B5B41 /* HECollectionViewCell.swift in Sources */,
+				565FEBEB2497BA01000B5B41 /* HEConstants.swift in Sources */,
+				565FEBED2497BA69000B5B41 /* HETextField.swift in Sources */,
+				565FEBFB2497C7AE000B5B41 /* HEDataManager.swift in Sources */,
+				565FEBEF2497BB2F000B5B41 /* HEViewController.swift in Sources */,
+				565FEBF92497C6FC000B5B41 /* HEAuthorizationManager.swift in Sources */,
+				565FEBE92497B9E6000B5B41 /* HEAlamofire.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +486,9 @@
 		};
 		565FEBE12497A2E3000B5B41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6013CC5786CF0C34DEEC3C /* Pods-Handy Extensions.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7K4QY5L96D;
@@ -347,6 +497,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Handy Extensions/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -355,6 +506,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.artavag.Handy-Extensions";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -362,7 +514,9 @@
 		};
 		565FEBE22497A2E3000B5B41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D1F2BA33627CA34813A86E1 /* Pods-Handy Extensions.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 7K4QY5L96D;
@@ -371,6 +525,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Handy Extensions/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,6 +542,7 @@
 		565FEBE42497A2E3000B5B41 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7K4QY5L96D;
 				INFOPLIST_FILE = "Handy ExtensionsTests/Info.plist";
@@ -405,6 +561,7 @@
 		565FEBE52497A2E3000B5B41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7K4QY5L96D;
 				INFOPLIST_FILE = "Handy ExtensionsTests/Info.plist";
