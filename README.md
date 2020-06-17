@@ -1,2 +1,2 @@
 # HandyExtensions
-Swift extensions used in every day coding
+Swift extensions used in everyday coding
