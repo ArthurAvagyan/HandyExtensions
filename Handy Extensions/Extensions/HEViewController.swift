@@ -92,8 +92,8 @@ extension UIViewController {
         }
     }
 
-    var isTabBarVisible: Bool {
-		guard let tabBar = (UIApplication.shared.keyWindow?.rootViewController as? ASMainTabBarController)?.tabBar else { return false }
-		return tabBar.frame.origin.y < UIScreen.main.bounds.height
-    }
+//    var isTabBarVisible: Bool {
+//		guard let tabBar = (UIApplication.shared.keyWindow?.rootViewController as? ASMainTabBarController)?.tabBar else { return false }
+//		return tabBar.frame.origin.y < UIScreen.main.bounds.height
+//    }
 }
