@@ -1,0 +1,42 @@
+//
+//  NetworkManager.swift
+//  aaber
+//
+//  Created by Arthur Avagyan on 11.12.20.
+//  Copyright © 2020 Digitec. All rights reserved.
+//
+
+import Foundation
+import Network
+
+class NetworkManager {
+
+	var isReachable: Bool = false
+	
+	/// Is set to true when using cellular data or
+	/// when using WiFi that is hotspot routed
+	/// through an iPhone’s cellular connection
+	var isExpensive: Bool = false
+	
+	static let networkError = NSError(domain: "",
+									  code: 6,
+									  userInfo: [NSLocalizedDescriptionKey: String.localized(.noInternetConnection)])
+	
+	static let shared = NetworkManager()
+	
+	private let monitor = NWPathMonitor()
+	
+	private init() {
+		configurePathUpdateHandler()
+
+		monitor.start(queue: DispatchQueue(label: "Monitor"))
+	}
+	
+	private func configurePathUpdateHandler() {
+		monitor.pathUpdateHandler = { [weak self] path in
+			guard let self = self else { return }
+			self.isReachable = path.status == .satisfied
+			self.isExpensive = path.isExpensive
+		}
+	}
+}
